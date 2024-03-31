@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Az Zahra Syahida Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+<!-- navigation menu -->
+<nav>
+  <div class="navbar">
+    <div class="logo"><a href="#">Portfolio.</a></div>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#Portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <div class="cancel-btn">
+        <i class="fas fa-times"></i>
+      </div>
+    </ul>
+    <!-- Move media-icons inside the navbar -->
+    <div class="media-icons">
+      <a href="https://www.linkedin.com/in/azzahrasyahida/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Azzzasya"><i class="fab fa-github"></i></a>
+      <a href="https://medium.com/@azzzasya"><i class="fab fa-medium"></i></a>
+      <a href="https://wa.me/6285692366085"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/azzzasya"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="menu-btn">
+    <i class="fas fa-bars"></i>
+  </div>
+</nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Az Zahra Syahida</div>
+          <div class="text-three">Data Analyst</div>
+          <div class="text-four">From Jakarta, Indonesia</div>
+          <a href="mailto:zahrasyhd2811@gmail.com" class="connect-button">
+            <button class="connect-btn">Let's connect</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Discover More About Me</div>
+            <p>
+              A physics graduate from Sumatra Institute of Technology with a passion for data science, complemented by completion of a bootcamp at Purwadhika.
+              Proficient in Python, SQL, statistical analysis, data visualization, and machine learning.
+              Experienced in project management, leadership, and public speaking. Multilingual with strong analytical and problem-solving skills.
+            </p>
+            <a href="https://drive.google.com/file/d/1_K98TYHhtqvdjGDcqiPdbp_Am_vMQU_q/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <button class="download-btn">Download CV</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Portfolio Section Start -->
+    <section class="Portfolio" id="Portfolio">
+      <div class="content">
+        <div class="title"><span>My Portfolio</span></div>
+        <div class="boxes">
+          <div class="box">
+            <a href="https://github.com/Azzzasya/Capstone1" target="_blank">
+              <div class="image-container">
+                <img src="Images/Portof-1.jpg" alt="">
+              </div>
+              <div class="topic">Student Grade Management Apps</div>
+              <p>This is a simple application utilizing CRUD (Create, Read, Update, Delete) principles, coded in Python, to demonstrate a practical scenario with fictional data. It enhances programming skills and showcases an application for assessing student performance in a fictional course.</p>
+            </a>
+          </div>
+          <div class="box">
+            <a href="https://github.com/Azzzasya/Capstone2" target="_blank">
+              <div class="image-container">
+                <img src="Images/Portof-2.jpg" alt="">
+              </div>
+              <div class="topic">AWS SaaS Analytics</div>
+              <p>Centered on optimizing product development, the focus lies in analyzing Software as a Service (SaaS) sales data sourced from AWS. The primary objective of this initiative is to enhance sales patterns and implement more effective strategies for maximizing business growth.</p>
+            </a>
+          </div>
+          <div class="box">
+            <a href="https://github.com/Azzzasya/Capstone3" target="_blank">
+              <div class="image-container">
+                <img src="Images/Portof-3.jpg" alt="">
+              </div>
+              <div class="topic">Telco Customer Churn Analysis</div>
+              <p>This endeavor integrates predictive modeling, analysis of feature importance, and evaluation of model performance. It culminates in providing actionable recommendations tailored to improving customer retention and driving business growth.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- Contacts section -->
+    <section class="site-section section-contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Don't hesitate to reach out to me</h2>
+        <div class="row">
+          <form action="form.php" method="POST" class="col-md-12">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input class="form-control" type="text" placeholder="Name" required>
+              </div>
+              <div class="form-group col-md-6">
+                <input class="form-control" type="email" placeholder="E-mail" required>
+              </div>
+              <div class="form-group col-md-12">
+                <input class="form-control" type="text" placeholder="Subject" required>
+              </div>
+              <div class="form-group col-md-12">
+                <textarea class="form-control" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="form-group col-md-12">
+                <button class="btn btn-inverted">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
