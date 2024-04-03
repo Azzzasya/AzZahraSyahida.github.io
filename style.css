@@ -582,7 +582,6 @@ section .button button:hover {
 .form-group input[type="email"],
 .form-group textarea {
   width: 100%; 
-  max-width: 400px; 
   margin: 0 auto; 
 }
 .image-container img {
